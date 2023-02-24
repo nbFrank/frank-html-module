@@ -1,0 +1,28 @@
+<w:r>
+    <w:rPr></w:rPr>
+    <w:t xml:space="preserve">Normal1</w:t>
+</w:r>
+<w:r>
+    <w:rPr></w:rPr>
+    <w:t xml:space="preserve">Normal2</w:t>
+</w:r>
+<w:r>
+    <w:rPr></w:rPr>
+    <w:t xml:space="preserve"></w:t>
+</w:r>
+<w:r>
+    <w:rPr>
+            <w:b/>
+    </w:rPr>
+    <w:t xml:space="preserve">bold</w:t>
+</w:r>
+<w:r>
+    <w:rPr></w:rPr>
+    <w:t xml:space="preserve"></w:t>
+</w:r>
+<w:r>
+    <w:rPr>
+            <w:u w:val="single"/>
+    </w:rPr>
+    <w:t xml:space="preserve">underline</w:t>
+</w:r>
