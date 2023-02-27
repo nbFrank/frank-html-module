@@ -1,27 +1,5 @@
 {
-  "_from": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-  "_id": "frank-html-module@3.29.3",
-  "_inBundle": false,
-  "_integrity": "sha512-9m7pKYICjgGBbzGPhHcbzY7jStKnxA0gv7QVZ01ZJpQ696toLESkrlJiPQAWdaxkif4JAsbRiUZ6YC7Of4PlnQ==",
-  "_location": "/frank-html-module",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-    "rawSpec": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-    "saveSpec": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-    "fetchSpec": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-  "_shasum": "12fc048d737a5ee7281868b0270826aeb212ad36",
-  "_spec": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-  "_where": "C:\\project\\hswh-admin",
-  "author": "",
-  "bundleDependencies": false,
+  "author": "nbFrank",
   "dependencies": {
     "color-js": "^1.0.5",
     "css": "^3.0.0",
@@ -34,7 +12,7 @@
     "lodash": "^4.17.21"
   },
   "deprecated": false,
-  "description": "Html Module for docxtemplater",
+  "description": "Html Module",
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.7",
@@ -70,9 +48,9 @@
     "docx",
     "generation"
   ],
-  "license": "SEE LICENSE IN https://docxtemplater.com/PRO-LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "main": "js/index.js",
-  "name": "frank-html-module",
+  "name": "frank-new-html-module",
   "scripts": {
     "babel": "babel es6 --out-dir js",
     "browserify": "npm run browserify:test && npm run browserify:lib && npm run browserify:min",
@@ -95,5 +73,13 @@
     "test:typings": "cp es6/*.ts js && tsd ."
   },
   "types": "./js/index.d.ts",
-  "version": "3.29.3"
+  "version": "3.29.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbFrank/frank-html-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nbFrank/frank-html-module/issues"
+  },
+  "homepage": "https://github.com/nbFrank/frank-html-module#readme"
 }
