@@ -1,9 +1,9 @@
 {
   "_from": "https://modules.docxtemplater.com/packages/v2/tech_aca/d51c85d9-3caa-4630-796e-433b188a8161/html-module-3.29.3.tar.gz",
-  "_id": "docxtemplater-html-module@3.29.3",
+  "_id": "frank-html-module@3.29.3",
   "_inBundle": false,
   "_integrity": "sha512-9m7pKYICjgGBbzGPhHcbzY7jStKnxA0gv7QVZ01ZJpQ696toLESkrlJiPQAWdaxkif4JAsbRiUZ6YC7Of4PlnQ==",
-  "_location": "/docxtemplater-html-module",
+  "_location": "/frank-html-module",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
@@ -72,7 +72,7 @@
   ],
   "license": "SEE LICENSE IN https://docxtemplater.com/PRO-LICENSE",
   "main": "js/index.js",
-  "name": "docxtemplater-html-module",
+  "name": "frank-html-module",
   "scripts": {
     "babel": "babel es6 --out-dir js",
     "browserify": "npm run browserify:test && npm run browserify:lib && npm run browserify:min",
